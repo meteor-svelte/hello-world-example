@@ -1,8 +1,8 @@
-import HelloWorld from '/imports/HelloWorld.html';
+import HelloWorld from '/imports/HelloWorld.svelte';
 
-var app = new HelloWorld({
+new HelloWorld({
   target: document.querySelector('main'),
-  data: {
+  props: {
     name: 'world'
   }
 });
