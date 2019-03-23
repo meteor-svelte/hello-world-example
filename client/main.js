@@ -1,4 +1,4 @@
-import HelloWorld from '/imports/HelloWorld.html';
+import HelloWorld from '/imports/HelloWorld.svelte';
 
 var app = new HelloWorld({
   target: document.querySelector('main'),
